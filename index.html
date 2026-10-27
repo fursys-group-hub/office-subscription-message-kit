@@ -326,10 +326,11 @@ html{scroll-behavior:smooth}
 }
 
 /* survey source link (P03) */
-.srclink{display:flex;flex-wrap:wrap;align-items:baseline;gap:1mm 3mm;margin-top:2mm;font-size:8.5pt;color:var(--mid)}
+.srclink{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:1mm 6mm;margin-top:3mm;font-size:8.5pt;color:var(--mid)}
+.srclink a{white-space:nowrap}
 .srclink a{font-weight:500;color:var(--black);text-decoration:underline;text-decoration-color:var(--red);text-decoration-thickness:1px;text-underline-offset:3px}
 .srclink a:hover{color:var(--red)}
-@media screen{.srclink{font-size:13.5px;margin-top:10px;gap:4px 12px}}
+@media screen{.srclink{font-size:13.5px;margin-top:14px;gap:4px 24px}}
 </style>
 </head>
 <body>
@@ -346,7 +347,7 @@ html{scroll-behavior:smooth}
     <h1 class="cover-title">퍼시스 오피스 구독<br>유통망 메시지 키트</h1>
     <p class="cover-lead">각자의 고객과 현장 이야기로 쓰되,<br>퍼시스가 전하는 관점은 함께 나눕니다.</p>
     <div class="cover-meta">
-      <div>용도<span>유통망 오피스 구독 서비스 글쓰기 가이드</span></div>
+      <div>용도<span>오피스 구독 서비스 글쓰기 가이드</span></div>
       <div>대상<span>퍼시스 유통망</span></div>
       <div>버전<span>2026.10.27</span></div>
     </div>
@@ -430,9 +431,8 @@ html{scroll-behavior:smooth}
         <div class="stat"><div class="n">42.1<sub>%</sub></div><div class="t">현재 오피스가 이를 충족한다</div><div class="w">경영진 216명</div></div>
         <div class="stat accent"><div class="n">52.3<sub>%</sub></div><div class="t">필요한 시점에 공간·가구 조정을 마치지 못했다</div><div class="w">조직 변화로 조정이 필요했던 실무자 193명</div></div>
       </div>
-      <p class="note">출처: 퍼시스 × 리멤버 2026 오피스 운영 실태 조사(2026년 9월, 온라인 설문).</p>
       <!-- SURVEY_PDF_URL: P03, P06 두 곳에서 사용 -->
-      <p class="srclink"><a href="https://fursys-group-hub.github.io/office-subscription-message-kit/fursys-remember-2026-office-operations-survey.pdf" target="_blank" rel="noopener">2026 오피스 운영 실태 조사 원문 보기 ↗</a></p>
+      <p class="srclink"><span>출처: 퍼시스 × 리멤버 2026 오피스 운영 실태 조사(2026년 9월, 온라인 설문)</span><a href="https://fursys-group-hub.github.io/office-subscription-message-kit/fursys-remember-2026-office-operations-survey.pdf" target="_blank" rel="noopener">2026 오피스 운영 실태 조사 원문 보기 ↗</a></p>
     </div>
   </div>
   <div class="sec" style="margin-top:12mm">
